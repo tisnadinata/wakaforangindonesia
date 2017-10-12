@@ -1,0 +1,618 @@
+/*
+@Author: Thanxtoo
+@URL: http://Thanxtoo.com
+
+This is the file where you can add your custom styles to change the look of the
+theme. But don't modify style-main.css file.
+
+*/
+
+/* Your custom css codes start here: */
+
+/*
+========================================
+Halaman konfirmasi-wakaf.php
+========================================
+*/
+
+/* Nav Pills */
+#konfirmasi-wakaf .horizontal-tab-centered .nav-pills > li {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  #konfirmasi-wakaf .horizontal-tab-centered .nav-pills > li {
+    width: auto;
+  }
+}
+
+/* Payment Method */
+.payment-method {
+  width: 100%;
+}
+
+/* Form Konfirmasi */
+form.konfirmasi-wakaf .input-nohp {
+  width: 100% !important;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  form.konfirmasi-wakaf .input-nohp {
+    width: 50% !important;
+  }
+}
+
+form.konfirmasi-wakaf .input-nama,
+form.konfirmasi-wakaf .input-email {
+  width: 49% !important;
+  display: inline;
+}
+
+@media (min-width: 768px) {
+  form.konfirmasi-wakaf .input-nama,
+  form.konfirmasi-wakaf .input-email {
+    width: 20% !important;
+  }
+}
+
+form.konfirmasi-wakaf .lanjut {
+  margin-top: 100px !important;
+}
+
+#tab-pembayaran .btn-facebook,
+#tab-pembayaran .btn-twitter,
+#tab-pembayaran .btn-google-plus {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  #tab-pembayaran .btn-facebook,
+  #tab-pembayaran .btn-twitter,
+  #tab-pembayaran .btn-google-plus {
+    width: auto;
+    margin-bottom: 0;
+  }
+}
+
+/*
+========================================
+Halaman halaman.php
+========================================
+*/
+
+/* Form Donasi */
+.donasi {
+  margin-top: 50px;
+}
+
+.donasi .form-control::-webkit-input-placeholder {
+  color: #000;
+  font-weight: bold;
+}
+
+.donasi .form-control:-moz-placeholder {
+  color: #000;
+  font-weight: bold;
+}
+
+.donasi .form-control::-moz-placeholder {
+  color: #000;
+  font-weight: bold;
+}
+
+.donasi .form-control:-ms-input-placeholder {
+  color: #000;
+  font-weight: bold;
+}
+
+.donasi .input-rp,
+.donasi .select-rp-tambahan {
+  width: 55%;
+  display: inline;
+}
+
+.donasi .select-rp-tambahan {
+  width: 44%;
+}
+
+.donasi .text-donasi-wakaf1,
+.donasi .text-donasi-wakaf2 {
+  display: inline;
+}
+
+.donasi .text-donasi-wakaf2 {
+  float: right;
+  margin-top: -20px;
+}
+
+.donasi .input-label-total,
+.donasi .input-rp-total {
+  display: inline;
+}
+
+.donasi .input-rp-total {
+  float: right;
+  background-color: #e7dd5b;
+  width: 60%;
+}
+
+.donasi .form-group:last-child {
+  margin-top: 20px;
+  float: right;
+  margin-right: 50px;
+}
+
+/* Lis Wakif */
+.list-wakif {
+  position: relative;
+  margin-top: 100px;
+}
+
+/* Button Social */
+.btn-social {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.btn-social > a {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.btn-social > a:hover,
+.btn-social > a:focus,
+.btn-social > a:active {
+  color: #fff;
+}
+
+.btn-instagram {
+  background-color: #405de6;
+}
+
+.btn-instagram:hover,
+.btn-instagram:focus,
+.btn-instagram:active {
+  background-color: #5851db;
+}
+
+.btn-whatsapp {
+  background-color: #267c2c;
+}
+
+.btn-whatsapp:hover,
+.btn-whatsapp:focus,
+.btn-whatsapp:active {
+  background-color: #377a50;
+}
+
+/* Project Lain */
+.project-lain .media .media-body {
+  float: right;
+  margin-top: -100px;
+  width: 50%;
+}
+
+.project-lain .media-body .media-heading {
+  text-transform: capitalize;
+}
+
+.project-lain .media-body .media-heading > a:hover {
+  color: #222 !important;
+}
+
+/*
+========================================
+Halaman komunitas-wakaf.php
+========================================
+*/
+
+/* Sidebar  Left */
+#komunitas-wakaf .sidebar-top {
+  margin-top: 30px;
+}
+
+#komunitas-wakaf .sidebar-top,
+#komunitas-wakaf .sidebar-bottom {
+  min-height: 600px;
+}
+
+#komunitas-wakaf .sidebar-title {
+  border-bottom: 3px solid #7aae33;
+}
+
+/* Class Divider */
+#komunitas-wakaf .divider {
+  border-bottom: 3px solid #7aae33;
+}
+
+/* Form Cari Komunitas Wakaf*/
+#komunitas-wakaf .cari-komunitas {
+  padding: 10px;
+}
+
+#komunitas-wakaf .cari-komunitas form .input-cari-komunitas {
+  font-family: 'Open Sans', FontAwesome;
+  width: 100%;
+  display: inline;
+}
+
+@media (min-width: 768px) {
+  #komunitas-wakaf .cari-komunitas form .input-cari-komunitas {
+    width: 60%;
+  }
+}
+
+#komunitas-wakaf .cari-komunitas form .btn-cari-komunitas {
+  display: inline;
+  margin-top: 10px;
+}
+
+#komunitas-wakaf .cari-komunitas form .btn-reset-cari-komunitas {
+  display: inline;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  #komunitas-wakaf .cari-komunitas form .btn-cari-komunitas,
+  #komunitas-wakaf .cari-komunitas form .btn-reset-cari-komunitas {
+    margin-top: 0;
+  }
+
+  #komunitas-wakaf .cari-komunitas form .form-group-btn {
+    display: inline;
+  }
+}
+
+@media(min-width: 992px) {
+  #komunitas-wakaf .cari-komunitas form .btn-cari-komunitas {
+    display: inline;
+    margin-top: 10px;
+  }
+
+  #komunitas-wakaf .cari-komunitas form .btn-reset-cari-komunitas {
+    display: inline;
+    margin-top: 10px;
+  }
+
+  #komunitas-wakaf .cari-komunitas form .input-cari-komunitas {
+    font-family: 'Open Sans', FontAwesome;
+    width: 100%;
+    display: inline;
+  }
+
+  #komunitas-wakaf .cari-komunitas form .form-group-btn {
+    margin-left: 25%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #komunitas-wakaf .cari-komunitas form .input-cari-komunitas {
+    width: 57%;
+  }
+
+  #komunitas-wakaf .cari-komunitas form .btn-cari-komunitas,
+  #komunitas-wakaf .cari-komunitas form .btn-reset-cari-komunitas {
+    margin-top: 0;
+  }
+
+  #komunitas-wakaf .cari-komunitas form .form-group-btn {
+    display: inline;
+    margin-left: 0;
+  }
+}
+
+/* Filter Komunitas Wakaf */
+#komunitas-wakaf .filter {
+  margin-bottom: 20px;
+}
+
+#komunitas-wakaf .filter .select-categori,
+#komunitas-wakaf .filter .select-team,
+#komunitas-wakaf .filter .label-sort-by,
+#komunitas-wakaf .filter .select-sort-by {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  #komunitas-wakaf .filter .select-categori,
+  #komunitas-wakaf .filter .select-team,
+  #komunitas-wakaf .filter .label-sort-by,
+  #komunitas-wakaf .filter .select-sort-by {
+    display: inline;
+  }
+}
+
+#komunitas-wakaf .filter select {
+  margin-top: 10px;
+}
+
+#komunitas-wakaf .filter .select-categori {
+  width: 100%;
+}
+
+
+#komunitas-wakaf .filter .select-team {
+  width: 100%;
+}
+
+#komunitas-wakaf .filter .select-sort-by {
+  width: 100%;
+  margin-top: 0;
+}
+
+@media (min-width: 768px) {
+  #komunitas-wakaf .filter select {
+    margin-top: 0;
+  }
+
+  #komunitas-wakaf .filter .select-categori {
+    width: 43%;
+  }
+
+  #komunitas-wakaf .filter .select-team {
+    width: 23%;
+  }
+
+  #komunitas-wakaf .filter .select-sort-by {
+    width: 23%;
+  }
+}
+
+@media (min-width: 992px) {
+  #komunitas-wakaf .filter .select-categori {
+    width: 39% !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  #komunitas-wakaf .filter .select-categori {
+    width: 42% !important;
+  }
+}
+
+#komunitas-wakaf .komunitas-detail {
+  margin-top: 20px;
+  border-bottom: 1px dotted #ddd;
+  padding-bottom: 20px;
+  height: 400px;
+}
+
+@media (min-width: 768px) {
+  #komunitas-wakaf .komunitas-detail {
+    margin-top: 20px;
+    border-bottom: 1px dotted #ddd;
+    padding-bottom: 20px;
+    height: auto;
+  }
+}
+
+#komunitas-wakaf .komunitas-detail .komunitas-img img {
+  height: 128px;
+  display: inline;
+}
+
+#komunitas-wakaf .komunitas-detail .komunitas-title {
+  float: right;
+  width: 50%;
+  margin-top: -140px;
+  display: inline;
+  font-size: 16px;
+}
+
+#komunitas-wakaf .komunitas-detail .komunitas-tag,
+#komunitas-wakaf .komunitas-detail .komunitas-body  {
+  position: absolute;
+  left: 7%;
+}
+
+#komunitas-wakaf .komunitas-detail .komunitas-title > h2 > a {
+  color: #44b5e6;
+}
+
+#komunitas-wakaf .komunitas-detail .komunitas-body {
+  float: right;
+  display: inline;
+  margin-top: 50px;
+}
+
+#komunitas-wakaf .komunitas-detail .komunitas-meta,
+#komunitas-wakaf .komunitas-detail .komunitas-tag {
+  line-height: 20px;
+}
+
+#komunitas-wakaf .komunitas-detail .komunitas-join > a {
+  margin-top: 150px;
+  margin-left: 30%;
+}
+
+@media (min-width: 768px) {
+  #komunitas-wakaf .komunitas-detail .komunitas-title {
+    float: right;
+    width: 77%;
+    margin-top: -140px;
+    display: inline;
+    font-size: 20px;
+  }
+
+  #komunitas-wakaf .komunitas-detail .komunitas-meta,
+  #komunitas-wakaf .komunitas-detail .komunitas-tag {
+    line-height: 12px;
+    font-size: 14px;
+  }
+
+  #komunitas-wakaf .komunitas-detail .komunitas-tag,
+  #komunitas-wakaf .komunitas-detail .komunitas-body  {
+    position: absolute;
+    left: 24%;
+    font-size: 14px;
+  }
+
+  #komunitas-wakaf .komunitas-detail .komunitas-body {
+    margin-top: 20px;
+  }
+
+  #komunitas-wakaf .komunitas-detail .komunitas-join > a {
+    margin-top: 20px !important;
+    margin-left: 10px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  #komunitas-wakaf .komunitas-detail .komunitas-title {
+    width: 70% !important;
+  }
+
+  #komunitas-wakaf .komunitas-detail .komunitas-meta,
+  #komunitas-wakaf .komunitas-detail .komunitas-tag {
+    line-height: 18px;
+  }
+
+  #komunitas-wakaf .komunitas-detail .komunitas-tag,
+  #komunitas-wakaf .komunitas-detail .komunitas-body  {
+    left: 31%;
+  }
+
+  #komunitas-wakaf .komunitas-detail .komunitas-body {
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #komunitas-wakaf .komunitas-detail .komunitas-title {
+    float: right;
+    width: 75% !important;
+    margin-top: -140px;
+    display: inline;
+    font-size: 20px;
+  }
+
+  #komunitas-wakaf .komunitas-detail .komunitas-meta,
+  #komunitas-wakaf .komunitas-detail .komunitas-tag {
+    line-height: 12px;
+    font-size: 14px;
+  }
+
+  #komunitas-wakaf .komunitas-detail .komunitas-tag,
+  #komunitas-wakaf .komunitas-detail .komunitas-body  {
+    position: absolute;
+    left: 26.5%;
+    font-size: 14px;
+  }
+
+  #komunitas-wakaf .komunitas-detail .komunitas-body {
+    margin-top: 20px;
+  }
+
+  #komunitas-wakaf .komunitas-detail .komunitas-join > a {
+    margin-top: 20px !important;
+    margin-left: 10px !important;
+  }
+}
+
+#komunitas-wakaf .komunitas-pagination .pagination > li > a,
+#komunitas-wakaf .komunitas-pagination .pagination > li > span {
+  border: 0;
+}
+
+/* Sidebar Right */
+#komunitas-wakaf .sidebar-right {
+  margin-top: 20px;
+}
+
+#komunitas-wakaf .list-pendiri-komunitas {
+  margin-top: 20px;
+}
+
+#komunitas-wakaf .list-pendiri-komunitas .nav-tabs > li.active > a,
+#komunitas-wakaf .list-pendiri-komunitas .nav-tabs > li.active > a:focus,
+#komunitas-wakaf .list-pendiri-komunitas .nav-tabs > li.active > a:hover{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+#komunitas-wakaf .list-pendiri-komunitas .nav-tabs > li > a {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+#komunitas-wakaf .list-pendiri-komunitas .list-pendiri-komunitas-content img {
+  width: 64px;
+  height: 64px;
+}
+
+#komunitas-wakaf .list-pendiri-komunitas .list-pendiri-komunitas-content img,
+#komunitas-wakaf .list-pendiri-komunitas .list-pendiri-komunitas-content h4 > a,
+#komunitas-wakaf .list-pendiri-komunitas .list-pendiri-komunitas-content .progress {
+  display: inline;
+}
+
+#komunitas-wakaf .list-pendiri-komunitas .list-pendiri-komunitas-content h4 > a,
+#komunitas-wakaf .list-pendiri-komunitas .list-pendiri-komunitas-content .progress {
+  margin-top: -75px;
+  float: right;
+  margin-right: 70px;
+}
+
+#komunitas-wakaf .list-pendiri-komunitas .list-pendiri-komunitas-content .progress {
+  margin-top: -50px;
+  width: 70%;
+  position: relative;
+  left: 70px;
+}
+
+#komunitas-wakaf .list-pendiri-komunitas .list-pendiri-komunitas-content .progress .progress-bar {
+  background-color: #85be38;
+}
+
+#komunitas-wakaf .list-pendiri-komunitas .list-pendiri-komunitas-content .progress .progress-bar > .percent {
+  color: #000;
+  font-weight: 600;
+}
+
+/* New Members */
+#komunitas-wakaf .list-pendiri-komunitas .new-member-content img {
+  width: 64px;
+  height: 64px;
+}
+
+#komunitas-wakaf .list-pendiri-komunitas .new-member-content img,
+#komunitas-wakaf .list-pendiri-komunitas .new-member-content h4 > a,
+#komunitas-wakaf .list-pendiri-komunitas .new-member-content .progress {
+  display: inline;
+}
+
+#komunitas-wakaf .list-pendiri-komunitas .new-member-content h4 > a,
+#komunitas-wakaf .list-pendiri-komunitas .new-member-content .progress {
+  margin-top: -75px;
+  float: right;
+  margin-right: 70px;
+}
+
+#komunitas-wakaf .list-pendiri-komunitas .new-member-content .progress {
+  margin-top: -50px;
+  width: 70%;
+  position: relative;
+  left: 70px;
+}
+
+#komunitas-wakaf .list-pendiri-komunitas .new-member-content .progress .progress-bar {
+  background-color: #85be38;
+}
+
+#komunitas-wakaf .list-pendiri-komunitas .new-member-content .progress .progress-bar > .percent {
+  color: #000;
+  font-weight: 600;
+}
